@@ -1,0 +1,15 @@
+body{
+    font: italic bold 22px 'work sans', sans-serif;
+
+    p{
+        font-size: 16px;
+        font-style: normal;
+
+    }
+    h1{
+        text-decoration: underline;
+        font-style: italic;
+    }
+}
+
+

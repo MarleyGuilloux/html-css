@@ -1,0 +1,14 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to right, #d8ca02, #F5E600);
+    main{
+        width: 750px;
+        padding: 70px;
+        margin: auto;
+        box-shadow: 6px 6px 4px;
+    }
+    h1{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #2502bed2;
+    }
+}

@@ -1,0 +1,18 @@
+body{
+    background-image: linear-gradient(to right, rgba(3, 3, 253, 0.856), rgba(1, 255, 255, 0.822));
+
+    font-family: Arial, Helvetica, sans-serif;
+
+
+    main{
+        width: 700px;
+        padding: 30px;
+        margin: auto;
+        box-shadow: 5px 5px 6px;
+        border-radius: 10px;
+    }
+
+    P{
+        text-align: center;
+    }
+}
