@@ -30,7 +30,8 @@
 
 body{
     font-family: var(--fonte-padrao);
-  background-color: var(--cor0)
+  background-color:var(--cor0)
+  
   }
 
   a.externo::after {
@@ -38,13 +39,14 @@ body{
   }
 
 
-
   header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+
     min-height: 150px;
     text-align: center;
     padding-top: 30px;
   }
+  
 
 header > h1{
     color: white;
