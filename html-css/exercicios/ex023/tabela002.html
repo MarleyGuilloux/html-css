@@ -11,17 +11,28 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         td, th{
             border: 1px solid black;
             padding: 7px;
         }
         thead{
-            background-color: grey;
+            background-color: rgba(0, 0, 0, 0.712);
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(0, 0, 0);
         }
         td.numero{
             text-align: right;
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: lightgrey;
         }
 
     </style>
@@ -76,6 +87,30 @@
             <tr>
                 <td>Santa Catarina</td>
                 <td class="numero">6.248.436</td>
+            </tr>
+            <tr>
+                <td>amapa</td>
+                <td class="numero">5.355.333</td>
+            </tr>
+            <tr>
+                <td>brasilia</td>
+                <td class="numero"> 4.555.333</td>
+            </tr>
+            <tr>
+                <td>santa Catarina</td>
+                <td class="numero">3.456.333</td>
+            </tr>
+            <tr>
+                <td>belo horizonte</td>
+                <td class="numero">2.333.565</td>
+            </tr>
+            <tr>
+                <td>ametista</td>
+                <td class="numero">1.222.333</td>
+            </tr>
+            <tr>
+                <td>porto alegre</td>
+                <td class="numero">789.666</td>
             </tr>
         </tbody> 
         <tfoot>
