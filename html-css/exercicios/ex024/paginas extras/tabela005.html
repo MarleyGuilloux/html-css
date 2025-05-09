@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas responsivas</title>
     <style>
+
+tbody tr:nth-child(odd) {
+  background-color: #ddd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #eee;
+}
+
+
         body{
             font-family: Arial, Helvetica, sans-serif;
         }
@@ -27,18 +37,30 @@
         div#container {
             overflow-x: auto;
         }
+        iframe{
+            width: 300px;
+            display: block;
+            margin: auto;
+        }
     </style>
 </head>
 <body>
+    
     <h1>tabelas em telas pequenas</h1>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit a iusto quo perspiciatis vitae officiis ad nisi pariatur possimus? Sit nesciunt quia eveniet quo esse expedita eos exercitationem? Ipsam, asperiores.</p>
+   
+
+
     <div id="container">
         <table>
             <caption>
                 tabelas responsivas
             </caption>
+            
             <thead>
+                
                 <tr>
+                    
                     <th>Produto</th>
                     <th>Jan</th>
                     <th>Fev</th>
@@ -160,8 +182,18 @@
                     <td>04</td>
                     <td>16</td>
                 </tr>
+                
             </tbody>
         </table>
+
+
+         
+
     </div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio non tenetur ad, qui labore quis dolor officiis reprehenderit molestias vel tempore deleniti deserunt cupiditate nesciunt obcaecati, excepturi modi? Exercitationem, et.</p>
+
+     <iframe src="tabela005.html" frameborder="0" height="500" width="500"></iframe>
+
 </body>
 </html>
